@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <style>.stroke {
+    text-shadow: black 1px 1px 0, black -1px -1px 0,
+                 black -1px 1px 0, black 1px -1px 0;
+                 }
+                 </style>
+       <title>Pizza Italo Celentano</title>
+</head>
+
+<body style = "background-color:ivory;">
+<div style="background-color:#ffffcc">
+ <h1 style="font-family:Helvetica; text-align:center; font-size:60px;">Hungry?<a href="index.html"><img  width="100" height="100" src="delivery.gif" alt="Sheff"><img   src="callnow.png" alt="Call NOW"></a></h1>
+</div>
+    <p style = font-size:20px><b style = color:green;>Pizza</b> <b class="stroke" style = color:white;>Italo </b><b style = color:red>Celentano</b> <i>is fast and simple way to beat your <b>hunger!</b></i></p>
+    
+    
+       <h1>Your order:</h1>
+    
+    <form method="POST" action="https://formspree.io/lxwtsn@gmail.com">
+        
+        
+
+        
+        <h2>What pizza you want:</h2>
+        
+         <input list="pizza-name" name="pizza-name">
+  <datalist id="pizza-name">
+  <option value="Napoletana">Napoletana</option>
+  <option value="Bologneza">Bologneza</option>
+  <option value="Romana">Romana</option>
+  <option value="Vegana">Vegana</option>
+</datalist> <br>
+
+<h2>Pizza size:</h2>
+  <input type="radio" name="pizza-size" value="big" checked> Big<br>
+  <input type="radio" name="pizza-size" value="medium"> Medium<br>
+  <input type="radio" name="pizza-size" value="small"> Small<br><br>
+       
+       <h2>Extras:</h2>
+       <select name="extras" size="3" multiple>
+       <option value="Extra cheese" selected>Extra Cheese</option>
+       <option value="Extra sauce" >Extra Sauce</option>
+       <option value="Extra ketchup" >Extra Ketchup</option>
+       
+</select><br>
+
+<h2>Contact details</h2>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name"
+             placeholder="Name" required
+             name="user-name">
+        <br>
+        <label>
+            Your delivery adress<br>
+            <input type="text" placeholder="Adress"  required 
+            name="user-adress"><br>
+        </label>
+        
+       
+        
+        <br>
+        <input type="submit">
+    </form>
+    
+     <footer style="background-color:#ffffcc">
+         <br><br>
+         <h1>Our links</h1>
+         <a href="https://fb.com">
+         <img  width="60" height="60" src="fb.png" alt="Facebook page" ></a> 
+         <a href="https://viber.com">
+         <img  width="60" height="60" src="viber.png" alt="Viber Us"><br></a> 
+         <p>Pizza Italo Celentano is a registered trademark</p>
+         <p>Contact Information: <a href="mailto:lxwtsn@gmail.com">lxwtsn@gmail.com</a></p>
+     </footer>
+</body>
+</html>
